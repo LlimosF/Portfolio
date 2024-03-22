@@ -1,4 +1,4 @@
-<header class="header" id="header">
+<header class="header-dark" id="header">
   <nav class="navbar container">
     <a href="#">
       <h1>Llimos florian</h1>
