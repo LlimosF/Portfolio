@@ -7,11 +7,12 @@ let liNavTop = ulNavTop.getElementsByTagName("li");
 let hello = document.getElementById("home-hello-text");
 hello.classList.add("color-dark");
 let download = document.getElementById("download");
+let header = document.getElementById("header");
 
 let themeInstagram = document.getElementById("instagram");
 let themeFacebook = document.getElementById("facebook");
 let themeLinkedin = document.getElementById("linkedin");
-let themeGithub = document.getElementById("github"); // Corrected ID
+let themeGithub = document.getElementById("github");
 let themeTelephone = document.getElementById("telephone");
 let themeMail = document.getElementById("mail");
 let homeButton = document.getElementById("home-bottom");
@@ -29,6 +30,8 @@ function toggleTheme() {
     hello.classList.add("color-light");
     download.classList.remove("download-dark");
     download.classList.add("download-light");
+    header.classList.remove("header-dark");
+    header.classList.add("header-light");
 
     themeInstagram.src = "media/theme/light/instagram.png";
     themeFacebook.src = "media/theme/light/facebook.png";
@@ -49,6 +52,8 @@ function toggleTheme() {
     hello.classList.add("color-dark");
     download.classList.remove("download-light");
     download.classList.add("download-dark");
+    header.classList.remove("header-light");
+    header.classList.add("header-remove");
 
     themeInstagram.src = "media/theme/dark/instagram.png";
     themeFacebook.src = "media/theme/dark/facebook.png";
