@@ -33,6 +33,10 @@ a {
   width: 30px;
 }
 
+.container-toggle > img:hover {
+  cursor: pointer;
+}
+
 /* EOF TOGGLE */
 /* EOF TOGGLE */
 /* EOF TOGGLE */
@@ -71,7 +75,7 @@ a {
 
 .container-theme-light {
   transition: 500ms;
-  background-image: url("media/theme/light/background-light.svg");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M12 250L262 0L566.5 0L316.5 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)'%3e%3c/path%3e%3cpath d='M245.60000000000002 250L495.6 0L545.1 0L295.1 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)'%3e%3c/path%3e%3cpath d='M482.20000000000005 250L732.2 0L1015.7 0L765.7 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)'%3e%3c/path%3e%3cpath d='M734.8000000000001 250L984.8000000000001 0L1325.3000000000002 0L1075.3000000000002 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)'%3e%3c/path%3e%3cpath d='M1436 250L1186 0L895 0L1145 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)'%3e%3c/path%3e%3cpath d='M1176.4 250L926.4000000000001 0L735.9000000000001 0L985.9000000000001 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)'%3e%3c/path%3e%3cpath d='M924.8 250L674.8 0L526.3 0L776.3 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)'%3e%3c/path%3e%3cpath d='M700.1999999999999 250L450.19999999999993 0L102.19999999999993 0L352.19999999999993 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)'%3e%3c/path%3e%3cpath d='M1289.127853068538 250L1440 99.12785306853783L1440 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 250L150.87214693146217 250L 0 99.12785306853783z' fill='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1007'%3e%3cstop stop-color='rgba(229%2c 229%2c 229%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(229%2c 229%2c 229%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1008'%3e%3cstop stop-color='rgba(229%2c 229%2c 229%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(229%2c 229%2c 229%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 }
 
 /* EOF TOGGLE THEME */
@@ -224,13 +228,28 @@ a {
 /* HEADER */
 /* HEADER */
 
-.header {
+#header {
   position: fixed;
   top: 0;
   right: 0;
   z-index: 5;
   width: 100%;
+}
+
+.header-dark {
   box-shadow: 0 0 15px black;
+  background: #2e2e2e;
+  color: white;
+}
+
+.header-light > nav > a > h1 {
+  color: black;
+}
+
+.header-light {
+  background: #e7e7e7;
+  color: dark;
+  box-shadow: 0 0 15px rgb(185, 185, 185);
 }
 
 h1 {
@@ -253,7 +272,6 @@ h1:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background: #2e2e2e;
   padding: 20px;
 }
 
@@ -427,9 +445,7 @@ h1:hover {
 }
 
 #home-bottom:hover {
-  color: #ada1f9;
-  border: 2px solid #ada1f9;
-  box-shadow: 0 0 15px #ada1f9;
+  box-shadow: 0 0 15px white;
   transition: 300ms;
 }
 
