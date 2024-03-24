@@ -14,9 +14,10 @@
 .title-section {
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 0 0 15px #ada1f9;
-  color: #ada1f9;
-  font-size: 30px;
+  text-shadow: 0 0 15px #ffff;
+  text-decoration: underline;  
+  color: #ffff;
+  font-size: 24px;
 }
 
 a {
@@ -422,7 +423,7 @@ h1:hover {
 
 #download {
   padding: 15px;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 30px;
   background: none;
   transition: 300ms;
@@ -493,6 +494,30 @@ h1:hover {
 /* EOF HOME */
 /* EOF HOME */
 /* EOF HOME */
+
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+
+#about {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.container-about-logo {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-about-bloc-last {
+  margin-bottom: 50px;
+}
+
+/* EOF ABOUT */
+/* EOF ABOUT */
+/* EOF ABOUT */
 
 /* TYPING */
 /* TYPING */

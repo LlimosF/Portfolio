@@ -12,9 +12,10 @@
   <?php 
 
     // require_once("component/loading.php");
-    require_once("home.php");
-    require_once("background.php");
     require_once("component/header.php");
+    require_once("background.php");
+    require_once("home.php");
+    require_once("about.php");
 
   ?>
 
