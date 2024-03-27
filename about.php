@@ -1,5 +1,5 @@
 <div id="about">
-  <h2 class="title-section">à propos</h2>
+  <h2 class="title-section" id="title-about">à propos</h2>
   <div class="container-about">
     <div class="container-about-bloc">
       <img src="media/about/selfi.png" alt="" class="container-about-logo">

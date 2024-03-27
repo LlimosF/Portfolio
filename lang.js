@@ -23,6 +23,13 @@ let langGithub = document.getElementById("instagram");
 let langTelephone = document.getElementById("telephone");
 let langMail = document.getElementById("mail");
 
+let titleAbout = document.getElementById("title-about");
+let titleSkill = document.getElementById("title-skills");
+
+let skillsTitleSeo = document.getElementById("skills-title-seo");
+let skillsTitleRgaa = document.getElementById("skills-title-rgaa");
+let skillsTitleResponsive = document.getElementById("skills-title-responsive");
+
 let lang = "fr";
 
 function toggleLang() {
@@ -43,6 +50,13 @@ function toggleLang() {
     aboutPassion.textContent = "What motivates me most about web development is the ability to create exceptional online experiences that meet user needs. I love solving complex problems, designing intuitive user interfaces and making the web more accessible for everyone.";
     aboutRecherche.textContent = "Over the years, I have had the opportunity to work on various exciting projects, ranging from business websites to interactive web applications. Each of these projects has been an opportunity to learn and grow as a developer. I am proud to share some of these projects in my portfolio.";
     aboutIdee.textContent = "Currently, I am open to new professional opportunities in the field of web development. I am excited to contribute to innovative projects, to collaborate with other technology enthusiasts, and to continue to develop my skills.";
+    titleAbout.textContent = "About";
+    titleSkill.textContent = "Skills";
+
+    skillsTitleResponsive.textContent = "Adaptability";
+    skillsTitleRgaa.textContent = "Accessibility";
+    skillsTitleSeo.textContent = "SEO";
+    
     lang = "en";
 
   } else {
@@ -61,6 +75,13 @@ function toggleLang() {
     aboutPassion.textContent = "Ce qui me motive le plus dans le développement web, c'est la possibilité de créer des expériences en ligne exceptionnelles qui répondent aux besoins des utilisateurs. J'aime résoudre des problèmes complexes, concevoir des interfaces utilisateur intuitives et rendre le web plus accessible pour tous.";
     aboutRecherche.textContent = "Au fil des ans, j'ai eu l'opportunité de travailler sur divers projets passionnants, allant de sites web d'entreprises à des applications web interactives. Chacun de ces projets a été l'occasion d'apprendre et de grandir en tant que développeur. Je suis fier de partager certains de ces projets dans mon portfolio.";
     aboutIdee.textContent = "Actuellement, je suis ouvert à de nouvelles opportunités professionnelles dans le domaine du développement web. Je suis enthousiaste à l'idée de contribuer à des projets innovants, de collaborer avec d'autres passionnés de technologie, et de continuer à développer mes compétences.";
+
+    titleAbout.textContent = "à propos";
+    titleSkill.textContent = "Compétences";
+
+    skillsTitleResponsive.textContent = "Adaptabilité";
+    skillsTitleRgaa.textContent = "Accessibilité";
+    skillsTitleSeo.textContent = "Référencement";
 
     lang = "fr";
 
