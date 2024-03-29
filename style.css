@@ -15,9 +15,9 @@
   text-transform: uppercase;
   text-align: center;
   text-shadow: 0 0 15px #ffff;
-  text-decoration: underline;  
   color: #ffff;
   font-size: 24px;
+  padding: 40px;
 }
 
 a {
@@ -124,7 +124,6 @@ a {
 
 .ul-social-link > li > a > img {
   width: 20px;
-  border-bottom: 1px solid white;
   padding: 5px;
   transition: 500ms;
 }
@@ -241,7 +240,7 @@ a {
 
 .header-dark {
   box-shadow: 0 0 15px black;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   color: white;
 }
 
@@ -528,46 +527,6 @@ h1:hover {
   margin-left: 15%;
 }
 
-.skills-card {
-  display: grid;
-  border-radius: 5px 25px 5px 25px;
-}
-
-.container-skills-card-title {
-  margin-top: 20px;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-
-.container-skills-card-stars {
-  display: grid;
-  justify-self: center;
-  margin-top: 20px;
-  width: 150px;
-  grid-template-columns: [] 1fr [] 1fr [] 1fr [] 1fr [] 1fr [];
-}
-
-.container-skills-card-stars > img {
-  width: 20px;
-}
-
-.container-skills-card-logo {
-  width: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  justify-self: center;
-}
-
-.separator {
-  width: 70%;
-  margin-left: 15%;
-  background-color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 2px;
-}
-
 .container-skills-bloc {
   width: 70%;
   margin-left: 15%;
@@ -676,3 +635,37 @@ h1:hover {
 /* EOF TYPING */
 /* EOF TYPING */
 /* EOF TYPING */
+
+/* PORTFOLIO */
+/* PORTFOLIO */
+/* PORTFOLIO */
+
+#portfolio {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.container-portfolio-card {
+  outline: 2px solid white;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.container-portfolio-card-button {
+  width: 100%;
+  margin-top: 30px;
+  text-transform: uppercase;
+  padding: 7px;
+}
+
+.container-portfolio-title {
+  color: white;
+}
+
+.container-portfolio-card-short-desc {
+  color: white;
+}
+
+/* EOF PORTFOLIO */
+/* EOF PORTFOLIO */
+/* EOF PORTFOLIO */
