@@ -2,13 +2,19 @@
   <h2 class="title-section" id="title-about">à propos</h2>
   <div class="container-about">
     <div class="container-about-bloc">
+    <div class="container-about-bloc-number">
+        <span class="container-about-bloc-number-span">1</span>
+      </div>
       <img src="media/about/selfi.png" alt="" class="container-about-logo">
       <p class="color-dark" id="about-presentation">
-        Je m'appelle Florian, j'ai 23 ans, et je suis un développeur web passionné basé près de Toulouse. Mon voyage dans le monde du développement web a commencé il y a quelques années, 
+        Je m'appelle Florian, j'ai 24 ans, et je suis un développeur web passionné basé près de Toulouse. Mon voyage dans le monde du développement web a commencé il y a quelques années, 
         et depuis lors, j'ai travaillé dur pour acquérir des compétences techniques solides et une profonde compréhension des technologies web modernes.
       </p>
     </div>  
     <div class="container-about-bloc">
+      <div class="container-about-bloc-number">
+        <span class="container-about-bloc-number-span">2</span>
+      </div>
       <img src="media/about/diplome.png" alt="" class="container-about-logo">
       <p class="color-dark" id="about-diplome">
         Après avoir découvert ma passion pour la programmation web, j'ai entrepris une formation en développement web qui m'a permis de maîtriser les langages et les outils essentiels 
@@ -16,6 +22,9 @@
       </p>
     </div>
     <div class="container-about-bloc">
+      <div class="container-about-bloc-number">
+        <span class="container-about-bloc-number-span">3</span>
+      </div>
       <img src="media/about/passion.png" alt="" class="container-about-logo">
       <p class="color-dark" id="about-passion">
         Ce qui me motive le plus dans le développement web, c'est la possibilité de créer des expériences en ligne exceptionnelles qui répondent aux besoins des utilisateurs. 
@@ -23,6 +32,9 @@
       </p>
     </div>
     <div class="container-about-bloc">
+    <div class="container-about-bloc-number">
+        <span class="container-about-bloc-number-span">4</span>
+      </div>
       <img src="media/about/recherche.png" alt="" class="container-about-logo">
       <p class="color-dark" id="about-recherche">
         Au fil des ans, j'ai eu l'opportunité de travailler sur divers projets passionnants, allant de sites web d'entreprises à des applications web interactives. 
@@ -30,6 +42,9 @@
       </p>
     </div>
     <div class="container-about-bloc container-about-bloc-last">
+    <div class="container-about-bloc-number">
+        <span class="container-about-bloc-number-span">5</span>
+      </div>
       <img src="media/about/idee.png" alt="" class="container-about-logo">
       <p class="color-dark" id="about-idee">
         Actuellement, je suis ouvert à de nouvelles opportunités professionnelles dans le domaine du développement web. Je suis enthousiaste à l'idée de contribuer à 

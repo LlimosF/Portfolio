@@ -17,8 +17,7 @@
     require_once("home.php");
     require_once("about.php");
     require_once("skills.php");
-    require_once("portfolio.php");
-
+    
   ?>
 
 </body>
