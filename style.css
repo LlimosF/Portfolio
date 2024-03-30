@@ -17,7 +17,8 @@
   text-shadow: 0 0 15px #424242;
   color: #ffff;
   font-size: 24px;
-  padding: 40px;
+  padding-top: 90px;
+  padding-bottom: 70px;
 }
 
 .color-span {
@@ -669,23 +670,23 @@ box-shadow:  20px 20px 60px #242424,
   border-radius: 20px;
   background: #2f2f2f;
   box-shadow:  20px 20px 60px #242424,
-               -20px -20px 60px #3a3a3a;
-               padding: 40px;
-               margin-top: 20px;
-               display: grid;
-               grid-template-columns: [a] 1fr [b] 1fr [c];
-               grid-template-rows: [a] 50px [b] 1fr [c] 60px [d];
+              -20px -20px 60px #3a3a3a;
+  padding: 40px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: [a] 1fr [b] 1fr [c];
+  grid-template-rows: [a] 50px [b] 1fr [c] 60px [d];
 }
 
 .container-skills-card-number-span {
   color: purple;
   border-radius: 20px;
   background: #292929;
-  box-shadow:  20px 20px 60px #242424,
-               -20px -20px 60px #3a3a3a;
-               padding: 15px;
-               position: relative;
-               font-size: 30px;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  padding: 15px;
+  position: relative;
+  font-size: 30px;
 }
 
 .container-skills-card-picture {
@@ -728,3 +729,68 @@ box-shadow:  20px 20px 60px #242424,
 /* EOF SKILLS */
 /* EOF SKILLS */
 /* EOF SKILLS */
+
+/* PORTFOLIO */
+/* PORTFOLIO */
+/* PORTFOLIO */
+
+#portfolio {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.container-portfolio-card {
+  border-radius: 20px;
+  background: #2f2f2f;
+  box-shadow:  20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  padding: 40px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: [a] 1fr [b] 1fr [c];
+  grid-template-rows: [a] 50px [b] 1fr [c] 60px [d];
+}
+
+.container-portfolio-card-number-span {
+  color: purple;
+  border-radius: 20px;
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  padding: 15px;
+  position: relative;
+  font-size: 30px;
+}
+
+.container-portfolio-card-title {
+  grid-row: a / b;
+  grid-column: a / c;
+  justify-self: start;
+  align-self: center;
+  margin-left: 60px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container-portfolio-card > img {
+  width: 100%;
+  grid-row: b / c;
+  grid-column: a / c;
+  justify-self: center;
+  align-self: center;
+}
+
+.container-portfolio-card-button {
+  width: 80%;
+  text-decoration: none;
+  grid-column: a / c;
+  align-self: center;
+  padding: 15px;
+  text-align: center;
+  justify-self: center;
+  color: white;
+  border-radius: 15px;
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+}
