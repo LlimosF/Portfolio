@@ -35,7 +35,7 @@
     <div class="container-about-bloc-number">
         <span class="container-about-bloc-number-span">4</span>
       </div>
-      <img src="media/about/recherche.png" alt="" class="container-about-logo">
+      <img src="media/about/passion.png" alt="" class="container-about-logo">
       <p class="color-dark" id="about-recherche">
         Au fil des ans, j'ai eu l'opportunité de travailler sur divers projets passionnants, allant de sites web d'entreprises à des applications web interactives. 
         Chacun de ces projets a été l'occasion d'apprendre et de grandir en tant que développeur. Je suis fier de partager certains de ces projets dans mon portfolio.
