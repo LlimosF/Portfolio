@@ -10,6 +10,7 @@
       </div>
       <h3 class="container-portfolio-card-title">Password</h3>
       <img src="media/portfolio/password.png">
+      <p>HTML | CSS | JS</p>
       <a href="https://www.florianllimos.fr/password" class="container-portfolio-card-button">Voir le projet</a>
     </div>
 
@@ -21,6 +22,7 @@
       </div>
       <h3 class="container-portfolio-card-title">CProt</h3>
       <img src="media/portfolio/cprot.png">
+      <p>WORDPRESS | CSS</p>
       <a href="https://www.catherineprot.fr" class="container-portfolio-card-button">Voir le projet</a>
     </div>
 
@@ -32,6 +34,7 @@
       </div>
       <h3 class="container-portfolio-card-title">CCPhoto</h3>
       <img src="media/portfolio/ccphoto.png">
+      <p>NETLIFY | REACT | CSS</p>
       <a href="https://www.ccphotographie.netlify.app" class="container-portfolio-card-button">Voir le projet</a>
     </div>
 
@@ -43,6 +46,7 @@
       </div>
       <h3 class="container-portfolio-card-title">FrameUse</h3>
       <img src="media/portfolio/frameuse.png">
+      <p>NETLIFY | REACT | CSS</p>
       <a href="https://www.frameuse.netlify.app" class="container-portfolio-card-button">Voir le projet</a>
     </div>
 
@@ -54,6 +58,7 @@
       </div>
       <h3 class="container-portfolio-card-title">Morpion</h3>
       <img src="media/portfolio/morpion.png">
+      <p>HTML | CSS | JS</p>
       <a href="https://www.florianllimos.fr/morpion" class="container-portfolio-card-button">Voir le projet</a>
     </div>
 
@@ -65,6 +70,7 @@
       </div>
       <h3 class="container-portfolio-card-title">QRCode</h3>
       <img src="media/portfolio/qrcode.png">
+      <p>HTML | CSS | JS</p>
       <a href="https://www.florianllimos.fr/qrcode" class="container-portfolio-card-button">Voir le projet</a>
     </div>
 
@@ -76,6 +82,7 @@
       </div>
       <h3 class="container-portfolio-card-title">Calculatrice</h3>
       <img src="media/portfolio/calculatrice.png">
+      <p>HTML | CSS | JS</p>
       <a href="https://www.florianllimos.fr/calculatrice" class="container-portfolio-card-button">Voir le projet</a>
     </div>
 
@@ -87,6 +94,7 @@
       </div>
       <h3 class="container-portfolio-card-title">Challenge</h3>
       <img src="media/portfolio/challenge.png">
+      <p>HTML | CSS</p>
       <a href="https://www.florianllimos.fr/challenge" class="container-portfolio-card-button">Voir le projet</a>
     </div>
   </div>

@@ -751,6 +751,12 @@ box-shadow:  20px 20px 60px #242424,
   grid-template-rows: [a] 50px [b] 1fr [c] 60px [d];
 }
 
+.container-portfolio-card > p {
+  grid-column: a / c;
+  text-align: center;
+  color: white;
+}
+
 .container-portfolio-card-number-span {
   color: purple;
   border-radius: 20px;
@@ -793,4 +799,136 @@ box-shadow:  20px 20px 60px #242424,
   background: #292929;
   box-shadow: 20px 20px 60px #242424,
               -20px -20px 60px #3a3a3a;
+}
+
+/* CHATBOT */
+/* CHATBOT */
+/* CHATBOT */
+
+.chatbot-none {
+  display: none;
+}
+
+.chatbot-open {
+  width: 70%;
+  height: 84vh;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  position: fixed;
+  border-radius: 25px;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: [a] 1fr [b] 1fr [c];
+  grid-template-rows: [a] 1fr [b] 1fr [c];
+}
+
+.container-chatbot {
+  background-color: #2e2e2e;
+  grid-row: a / c;
+  grid-column: a / c;
+  border-radius: 25px;
+  justify-self: center;
+  width: 90%;
+  height: 93%;
+  align-self: center;
+  text-align: center;
+  background-image: url("media/theme/dark/background-dark.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: [a] 1fr [b] 1fr [c];
+  grid-template-rows: [a] 1fr [b] 1fr [c];
+}
+
+.container-chatbot-top-mobile {
+  background: #292929;
+  width: 60%;
+  grid-row: a / b;
+  grid-column: a / c;
+  z-index: 4;
+  align-self: flex-start;
+  justify-self: center;
+  height: 40px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: [a] 1fr [b] 1fr [c];
+  grid-template-rows: [a] 1fr [b] 1fr [c];
+}
+
+.container-chatbot-top-mobile-picture {
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  background-color: white;
+  grid-row: a / c;
+  grid-column: b / c;
+  align-self: center;
+  justify-self: flex-end;
+  margin-right: 10px;
+}
+
+.container-chatbot-welcome {
+  width: 90%;
+  grid-row: a / b;
+  grid-column: a / c;
+  justify-self: center;
+  align-self: flex-start;
+  background-color: purple;
+  color: white;
+  padding-top: 30px;
+  border-radius: 25px 25px 0 0;
+  margin-top: 20px;
+}
+
+.container-chatbot-bloc {
+  grid-row: a / c;
+  grid-column: a / c;
+  align-self: flex-start;
+  margin-top: 150px;
+  justify-self: center;
+}
+
+.container-chatbot-welcome > p {
+  padding: 20px;
+}
+
+.container-chatbot-open > img {
+  width: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.container-chatbot-button {
+  text-transform: uppercase;
+  padding: 8px;
+  border: none;
+  margin-top: 10px;
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  border-radius: 10px;
+  font-size: 13px;
+  color: white;
+  width: 100%;
+}
+
+.container-chatbot-button:hover {
+  cursor: pointer;
+}
+
+.container-chatbot-button > a > img {
+  width: 20px;
+}
+
+.container-chatbot-button > a {
+  color: white;
 }

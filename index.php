@@ -19,6 +19,7 @@
     require_once("skills.php");
     require_once("portfolio.php");
     require_once("contact.php");
+    require_once("chatbot.php");
     
   ?>
 
@@ -26,5 +27,6 @@
 <script src="theme.js"></script>
 <script src="lang.js"></script>
 <script src="typing.js"></script>
+<script src="chatbot.js"></script>
 <script src="download.js"></script>
 </html>
