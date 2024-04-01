@@ -2,15 +2,57 @@
   <h2 class="title-section">Contact</h2>
   <div class="container-contact">
     <form class="form-contact">
+
+<?php
+
+require_once("component/database.php");
+
+        if(!empty($_POST)) {
+
+$name = htmlspecialchars($_POST["name"];
+$email = htmlspecialchars($_POST["email"];
+$number = htmlspecialchars($_POST["number"];
+$content = htmlspecialchars($_POST["content"];
+
+          if(isset($_POST["name"], $_POST["email"], isset($_POST["number"], isset($_POST["content"])
+          && !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]) && !empty($_POST["content"])) {
+        
+            $sql = "INSERT INTO `formulaire`(name, email, number, content) VALUES (:name, :email, :number, :content)";
+              
+            $query = $db->prepare($sql);
+            $query->bindValue(":name", $name, PDO::PARAM_STR);
+            $query->bindValue(":email", $email, PDO::PARAM_STR);
+            $query->bindValue(":number", $number, PDO::PARAM_INT);
+            $query->bindValue(":content", $content, PDO::PARAM_STR);
+            $query->execute();
+        
+            if($query->execute()){
+        
+              echo "<span class='success'>Votre commentaire formulaire a bien été envoyé.</span>";
+        
+            } else {
+        
+              echo "<span class='error'>Erreur lors de l'envoie du formulaire.</span>";
+        
+            }
+        
+          }
+        }
+      ?>
+      
+
       <div class="bloc-form">
         <input type="text" name="name" required placeholder="Prénom">
       </div>
       <div class="bloc-form">
-        <input type="email" name="name" required placeholder="Adresse e-mail">
+        <input type="email" name="email" required placeholder="Adresse e-mail">
       </div>
       <div class="bloc-form">
-        <input type="number" name="name" required placeholder="Numéro de téléphone">
+        <input type="number" name="number" required placeholder="Numéro de téléphone">
       </div>
+<div class="bloc-form">
+<textarea name="content" rows="3"></textarea>
+</div>
       <button type="submit">Envoyer</button>
     </form>
     <div class="container-cv">
