@@ -10,7 +10,6 @@
     <button class="container-chatbot-button" id="container-chatbot-question-1">Navigation</button><br>
     <button class="container-chatbot-button" id="container-chatbot-question-2">Réseaux sociaux</button><br>
     <button class="container-chatbot-button" id="container-chatbot-question-3"><a href="#newsletter">Inscription newsletter</a></button><br>
-    <button class="container-chatbot-button" id="container-chatbot-question-4"><a href="#donne-avis">Donner mon avis</a></button><br>
     <button class="container-chatbot-button" id="container-chatbot-close">Fermer le chatbot</button>
   </div>
 

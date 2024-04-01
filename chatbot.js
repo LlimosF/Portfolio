@@ -4,7 +4,6 @@ let chatBot = document.getElementById("chatbot");
 let question1 = document.getElementById("container-chatbot-question-1");
 let question2 = document.getElementById("container-chatbot-question-2");
 let question3 = document.getElementById("container-chatbot-question-3");
-let question4 = document.getElementById("container-chatbot-question-4");
 
 let question5 = document.getElementById("container-chatbot-question-5");
 let question6 = document.getElementById("container-chatbot-question-6");
@@ -38,7 +37,6 @@ function closeChat () {
 }
 
 question3.addEventListener("click", closeChat);
-question4.addEventListener("click", closeChat);
 question5.addEventListener("click", closeChat);
 question6.addEventListener("click", closeChat);
 question7.addEventListener("click", closeChat);

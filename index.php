@@ -20,6 +20,7 @@
     require_once("portfolio.php");
     require_once("contact.php");
     require_once("chatbot.php");
+    require_once("footer.php");
     
   ?>
 
