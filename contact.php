@@ -28,7 +28,7 @@ $content = htmlspecialchars($_POST["content"];
         
             if($query->execute()){
         
-              echo "<span class='success'>Votre commentaire formulaire a bien été envoyé.</span>";
+              echo "<span class='success'>Votre formulaire a bien été envoyé.</span>";
         
             } else {
         
