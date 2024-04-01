@@ -4,7 +4,7 @@
 
     <!-- PASSWORD -->
 
-    <div class="container-portfolio-card">
+    <div class="container-portfolio-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">1</span>
       </div>
@@ -16,7 +16,7 @@
 
     <!-- CPROT -->
 
-    <div class="container-portfolio-card">
+    <div class="container-portfolio-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">2</span>
       </div>
@@ -28,7 +28,7 @@
 
     <!-- CCPHOTOGRAPHIE -->
 
-    <div class="container-portfolio-card">
+    <div class="container-portfolio-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">3</span>
       </div>
@@ -40,7 +40,7 @@
 
     <!-- FRAMEUSE -->
 
-    <div class="container-portfolio-card">
+    <div class="container-portfolio-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">4</span>
       </div>
@@ -52,7 +52,7 @@
 
     <!-- MORPION -->
 
-    <div class="container-portfolio-card">
+    <div class="container-portfolio-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">5</span>
       </div>
@@ -64,7 +64,7 @@
 
     <!-- QRCODE -->
 
-    <div class="container-portfolio-card">
+    <div class="container-portfolio-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">6</span>
       </div>
@@ -76,7 +76,7 @@
 
     <!-- CALCULATRICE -->
 
-    <div class="container-portfolio-card">
+    <div class="container-portfolio-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">7</span>
       </div>
@@ -88,7 +88,7 @@
 
     <!-- CHALLENGE -->
 
-    <div class="container-portfolio-card">
+    <div class="container-portfolio-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">8</span>
       </div>

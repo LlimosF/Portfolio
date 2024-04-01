@@ -344,7 +344,7 @@ h1:hover {
   justify-self: center;
 }
 
-@media screen and (max-width: 30000px) {
+@media screen and (max-width: 900px) {
   .menu {
     width: 100%;
     max-height: 0;
@@ -425,6 +425,15 @@ h1:hover {
 }
 
 #download {
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 30px;
+  background: none;
+  transition: 300ms;
+  border: none;
+}
+
+#download1 {
   padding: 15px;
   font-size: 14px;
   border-radius: 30px;
@@ -596,7 +605,7 @@ box-shadow:  20px 20px 60px #242424,
 
 @media screen and (min-width: 1400px) {
   #about {
-    width: 1200px;
+    width: 1100px;
   }
 
   .container-about {
@@ -751,7 +760,7 @@ box-shadow:  20px 20px 60px #242424,
 
 @media screen and (min-width: 1400px) {
   #skills {
-    width: 1200px;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -870,7 +879,7 @@ box-shadow:  20px 20px 60px #242424,
 
 @media screen and (min-width: 1400px) {
   #portfolio {
-    width: 1200px;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1037,3 +1046,116 @@ box-shadow:  20px 20px 60px #242424,
     width: 40px;
   }
 }
+
+/* CONTACT */
+/* CONTACT */
+/* CONTACT */
+
+#contact {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 80px;
+}
+
+.form-contact {
+  width: 100%;
+  padding-top: 30px;
+  border-radius: 25px;
+  background: #2f2f2f;
+  height: fit-content;
+  justify-content: center;
+  align-self: center;
+  box-shadow:  20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  display: grid;
+  grid-template-columns: [a] 1fr [] 1fr [c];
+}
+
+.bloc-form > input {
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(143, 143, 143);
+  padding: 8px;
+  color: white;
+  margin-top: 10px;
+}
+
+.bloc-form {
+  grid-column: a / c;
+  justify-self: center;
+}
+
+.form-contact > button {
+  grid-column: a / c;
+  justify-self: center;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(143, 143, 143);
+  padding: 8px;
+  color: white;
+}
+
+.contact-container-cv {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  display: grid;  
+  justify-content: center;
+  align-self: center;
+  justify-items: center;
+}
+
+.container-cv > img {
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  #contact {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #contact {
+    width: 600px;
+  }
+
+  .container-contact {
+    display: grid;
+    grid-template-columns: [] 1fr [] 1fr [];
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #contact {
+    width: 800px;
+  }
+
+  .bloc-form > input {
+    font-size: 16px;
+  }
+
+  .form-contact > button {
+    font-size: 16px;
+  }
+
+  .container-cv > img {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/* EOF CONTACT */
+/* EOF CONTACT */
+/* EOF CONTACT */

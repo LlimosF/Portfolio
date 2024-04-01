@@ -12,7 +12,7 @@
     <img src="media/home/florian.png" alt="Photo de moi même" id="home-picture">
   </div>
   <div class="container-home-download">
-    <button id="download" class="download-dark" title="Télécharger mon cv">Télécharger CV</button>
+    <button id="download" class="download-dark" title="Télécharger mon cv" tabindex="0">Télécharger CV</button>
   </div>
   <div class="container-home-social-link" role="navigation">
     <ul role="menu" class="ul-social-link">

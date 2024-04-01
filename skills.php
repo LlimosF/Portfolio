@@ -4,7 +4,7 @@
 
     <!-- HTML -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">1</span>
       </div>
@@ -21,7 +21,7 @@
 
     <!-- CSS -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">2</span>
       </div>
@@ -39,7 +39,7 @@
 
     <!-- JS -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">3</span>
       </div>
@@ -56,7 +56,7 @@
 
     <!-- BOOTSTRAP -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">4</span>
       </div>
@@ -73,7 +73,7 @@
 
     <!-- AJAX -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">5</span>
       </div>
@@ -90,7 +90,7 @@
 
     <!-- JQUERY -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">6</span>
       </div>
@@ -107,7 +107,7 @@
 
     <!-- REACT -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">7</span>
       </div>
@@ -124,7 +124,7 @@
 
     <!-- LEAFLET -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">8</span>
       </div>
@@ -141,7 +141,7 @@
 
     <!-- JOOMLA -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">9</span>
       </div>
@@ -158,7 +158,7 @@
 
     <!-- WORDPRESS -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">10</span>
       </div>
@@ -175,7 +175,7 @@
 
     <!-- PHP -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">11</span>
       </div>
@@ -192,7 +192,7 @@
 
     <!-- MYSQL -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">12</span>
       </div>
@@ -209,7 +209,7 @@
 
     <!-- FIGMA -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">13</span>
       </div>
@@ -226,7 +226,7 @@
 
     <!-- BLENDER -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">14</span>
       </div>
@@ -243,7 +243,7 @@
 
     <!-- PHP STORM -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">15</span>
       </div>
@@ -260,7 +260,7 @@
 
     <!-- VS CODE -->
 
-    <div class="container-skills-card">
+    <div class="container-skills-card" tabindex="0">
       <div class="container-skills-card-number">
         <span class="container-skills-card-number-span">16</span>
       </div>

@@ -1,7 +1,7 @@
 <div id="about">
   <h2 class="title-section" id="title-about">à propos</h2>
   <div class="container-about">
-    <div class="container-about-bloc">
+    <div class="container-about-bloc" tabindex="0">
     <div class="container-about-bloc-number">
         <span class="container-about-bloc-number-span">1</span>
       </div>
@@ -11,7 +11,7 @@
         et depuis lors, j'ai travaillé dur pour acquérir des compétences techniques solides et une profonde compréhension des technologies web modernes.
       </p>
     </div>  
-    <div class="container-about-bloc">
+    <div class="container-about-bloc" tabindex="0">
       <div class="container-about-bloc-number">
         <span class="container-about-bloc-number-span">2</span>
       </div>
@@ -21,7 +21,7 @@
         tels que HTML, CSS, JavaScript, et PHP. J'ai également acquis de l'expérience dans la création de sites web réactifs et conviviaux, en utilisant des frameworks tels que React et Angular.
       </p>
     </div>
-    <div class="container-about-bloc">
+    <div class="container-about-bloc" tabindex="0">
       <div class="container-about-bloc-number">
         <span class="container-about-bloc-number-span">3</span>
       </div>
@@ -31,7 +31,7 @@
         J'aime résoudre des problèmes complexes, concevoir des interfaces utilisateur intuitives et rendre le web plus accessible pour tous.
       </p>
     </div>
-    <div class="container-about-bloc">
+    <div class="container-about-bloc" tabindex="0">
     <div class="container-about-bloc-number">
         <span class="container-about-bloc-number-span">4</span>
       </div>
@@ -41,7 +41,7 @@
         Chacun de ces projets a été l'occasion d'apprendre et de grandir en tant que développeur. Je suis fier de partager certains de ces projets dans mon portfolio.
       </p>
     </div>
-    <div class="container-about-bloc container-about-bloc-last">
+    <div class="container-about-bloc container-about-bloc-last" tabindex="0">
     <div class="container-about-bloc-number">
         <span class="container-about-bloc-number-span">5</span>
       </div>
