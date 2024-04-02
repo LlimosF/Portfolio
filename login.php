@@ -1,5 +1,7 @@
 <?php
-require_once("component/database.php");
+
+    require_once("component/database.php");
+
 ?>
 
 <form method="POST" class="">
@@ -13,32 +15,51 @@ require_once("component/database.php");
     <button type="submit" class="">Me connecter</button>
 
     <?php
+
     if (!empty($_POST)) {
+        
         if (isset($_POST["email"], $_POST["password"]) && !empty($_POST["email"]) && !empty($_POST["password"])) {
+            
             if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
+                
                 $sql = "SELECT * FROM users WHERE email = :email";
                 $query = $db->prepare($sql);
                 $query->bindValue(":email", $_POST["email"], PDO::PARAM_STR);
                 $query->execute();
                 $user = $query->fetch();
+                
                 if ($user && password_verify($_POST["password"], $user["password"])) {
+                    
                     session_start();
+                    
                     $_SESSION["user"] = [
                         "id" => $user["id"],
-                        "nom" => $user["nom"],
+                        "name" => $user["name"],
                         "email" => $user["email"]
                     ];
-                    header("Location: gestion.php");
+                    
+                    header("Location: admin.php");
                     exit();
+                    
                 } else {
+                    
                     echo "<span class='error'>Le mot de passe et / ou l'adresse e-mail sont incorrects.</span>";
+                    
                 }
+                
             } else {
+                
                 echo "<span class='error'>Le mot de passe et / ou l'adresse e-mail sont incorrects.</span>";
+                
             }
+            
         } else {
+            
             echo "<span class='error'>Veuillez remplir tous les champs.</span>";
+            
         }
     }
+        
     ?>
+        
 </form>
