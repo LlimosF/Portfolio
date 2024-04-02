@@ -3,19 +3,18 @@
   <div class="container-contact">
     <form class="form-contact">
 
-<?php
-
-require_once("component/database.php");
+      <?php
+    
+        require_once("component/database.php");
 
         if(!empty($_POST)) {
 
-$name = htmlspecialchars($_POST["name"];
-$email = htmlspecialchars($_POST["email"];
-$number = htmlspecialchars($_POST["number"];
-$content = htmlspecialchars($_POST["content"];
+          $name = htmlspecialchars($_POST["name"];
+          $email = htmlspecialchars($_POST["email"];
+          $number = htmlspecialchars($_POST["number"];
+          $content = htmlspecialchars($_POST["content"];
 
-          if(isset($_POST["name"], $_POST["email"], isset($_POST["number"], isset($_POST["content"])
-          && !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]) && !empty($_POST["content"])) {
+          if(isset($_POST["name"], $_POST["email"], isset($_POST["number"], isset($_POST["content"]) && !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]) && !empty($_POST["content"])) {
         
             $sql = "INSERT INTO `formulaire`(name, email, number, content) VALUES (:name, :email, :number, :content)";
               
@@ -37,9 +36,10 @@ $content = htmlspecialchars($_POST["content"];
             }
         
           }
+
         }
+
       ?>
-      
 
       <div class="bloc-form">
         <input type="text" name="name" required placeholder="Prénom">
@@ -50,9 +50,9 @@ $content = htmlspecialchars($_POST["content"];
       <div class="bloc-form">
         <input type="number" name="number" required placeholder="Numéro de téléphone">
       </div>
-<div class="bloc-form">
-<textarea name="content" rows="3"></textarea>
-</div>
+      <div class="bloc-form">
+        <textarea name="content" rows="3"></textarea>
+      </div>
       <button type="submit">Envoyer</button>
     </form>
     <div class="container-cv">
