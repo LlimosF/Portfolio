@@ -1,7 +1,7 @@
 <div id="contact">
   <h2 class="title-section">Contact</h2>
   <div class="container-contact">
-    <form class="form-contact">
+    <form class="form-contact" method="POST">
 
       <?php
     
@@ -46,7 +46,7 @@
         <input type="number" name="number" required placeholder="Numéro de téléphone">
       </div>
       <div class="bloc-form">
-        <textarea name="content" rows="3"></textarea>
+        <textarea name="content" rows="3" placeholder="Votre message"></textarea>
       </div>
       <button type="submit">Envoyer</button>
     </form>
