@@ -29,6 +29,12 @@ let titleSkills = document.getElementById("title-skills");
 
 let homeBottom = document.getElementById("home-bottom");
 
+let inputNewsletter = document.getElementById("input-newsletter");
+let btnNewsletter = document.getElementById("btn-newsletter");
+
+let errorNewsletter = document.getElementById("error-newsletter");
+let successNewsletter = document.getElementById("success-newsletter");
+
 let lang = "fr";
 
 function toggleLang() {
@@ -74,6 +80,11 @@ function toggleLang() {
     homeBottom.setAttribute("aria-label", "Link to about");
     homeBottom.setAttribute("title", "Link to about");
 
+    inputNewsletter.setAttribute("placeholder", "Email address");
+    btnNewsletter.textContent = "Register";
+    errorNewsletter.textContent = "Error when subscribing to the newsletter.";
+    success.textContent = "You are subscribed to our newsletter.";
+
 
     lang = "en";
 
@@ -117,6 +128,12 @@ function toggleLang() {
 
     homeBottom.setAttribute("aria-label", "Lien vers à propos");
     homeBottom.setAttribute("title", "Lien vers à propos");
+
+    inputNewsletter.setAttribute("placeholder", "Adresse e-mail");
+    btnNewsletter.textContent = "M'inscrire";
+    errorNewsletter.textContent = "Erreur lors de l'inscription à la newsletter.";
+successNewsletter.textContent = "Vous êtes bien inscrit à la newsletter.";
+
     
     lang = "fr";
 
