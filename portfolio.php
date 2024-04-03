@@ -9,9 +9,9 @@
         <span class="container-skills-card-number-span">1</span>
       </div>
       <h3 class="container-portfolio-card-title">Password</h3>
-      <img src="media/portfolio/password.png">
+      <img src="media/portfolio/password.png" alt="Password Logo">
       <p>HTML | CSS | JS</p>
-      <a href="https://www.florianllimos.fr/password" class="container-portfolio-card-button">Voir le projet</a>
+      <a href="https://www.florianllimos.fr/password" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
     </div>
 
     <!-- CPROT -->
@@ -21,9 +21,9 @@
         <span class="container-skills-card-number-span">2</span>
       </div>
       <h3 class="container-portfolio-card-title">CProt</h3>
-      <img src="media/portfolio/cprot.png">
+      <img src="media/portfolio/cprot.png" alt="CProt Logo">
       <p>WORDPRESS | CSS</p>
-      <a href="https://www.catherineprot.fr" class="container-portfolio-card-button">Voir le projet</a>
+      <a href="https://www.catherineprot.fr" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
     </div>
 
     <!-- CCPHOTOGRAPHIE -->
@@ -33,9 +33,9 @@
         <span class="container-skills-card-number-span">3</span>
       </div>
       <h3 class="container-portfolio-card-title">CCPhoto</h3>
-      <img src="media/portfolio/ccphoto.png">
+      <img src="media/portfolio/ccphoto.png" alt="CCPhoto Logo">
       <p>NETLIFY | REACT | CSS</p>
-      <a href="https://www.ccphotographie.netlify.app" class="container-portfolio-card-button">Voir le projet</a>
+      <a href="https://www.ccphotographie.netlify.app" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
     </div>
 
     <!-- FRAMEUSE -->
@@ -45,9 +45,9 @@
         <span class="container-skills-card-number-span">4</span>
       </div>
       <h3 class="container-portfolio-card-title">FrameUse</h3>
-      <img src="media/portfolio/frameuse.png">
+      <img src="media/portfolio/frameuse.png" alt"FrameUse Logo">
       <p>NETLIFY | REACT | CSS</p>
-      <a href="https://www.frameuse.netlify.app" class="container-portfolio-card-button">Voir le projet</a>
+      <a href="https://www.frameuse.netlify.app" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
     </div>
 
     <!-- MORPION -->
@@ -57,9 +57,9 @@
         <span class="container-skills-card-number-span">5</span>
       </div>
       <h3 class="container-portfolio-card-title">Morpion</h3>
-      <img src="media/portfolio/morpion.png">
+      <img src="media/portfolio/morpion.png" alt="Morpion Logo">
       <p>HTML | CSS | JS</p>
-      <a href="https://www.florianllimos.fr/morpion" class="container-portfolio-card-button">Voir le projet</a>
+      <a href="https://www.florianllimos.fr/morpion" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
     </div>
 
     <!-- QRCODE -->
@@ -69,9 +69,9 @@
         <span class="container-skills-card-number-span">6</span>
       </div>
       <h3 class="container-portfolio-card-title">QRCode</h3>
-      <img src="media/portfolio/qrcode.png">
+      <img src="media/portfolio/qrcode.png" alt="QRCode Logo">
       <p>HTML | CSS | JS</p>
-      <a href="https://www.florianllimos.fr/qrcode" class="container-portfolio-card-button">Voir le projet</a>
+      <a href="https://www.florianllimos.fr/qrcode" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
     </div>
 
     <!-- CALCULATRICE -->
@@ -81,9 +81,9 @@
         <span class="container-skills-card-number-span">7</span>
       </div>
       <h3 class="container-portfolio-card-title">Calculatrice</h3>
-      <img src="media/portfolio/calculatrice.png">
+      <img src="media/portfolio/calculatrice.png" alt="Calculatrice Logo">
       <p>HTML | CSS | JS</p>
-      <a href="https://www.florianllimos.fr/calculatrice" class="container-portfolio-card-button">Voir le projet</a>
+      <a href="https://www.florianllimos.fr/calculatrice" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
     </div>
 
     <!-- CHALLENGE -->
@@ -93,9 +93,9 @@
         <span class="container-skills-card-number-span">8</span>
       </div>
       <h3 class="container-portfolio-card-title">Challenge</h3>
-      <img src="media/portfolio/challenge.png">
+      <img src="media/portfolio/challenge.png" alt="Challenge Logo">
       <p>HTML | CSS</p>
-      <a href="https://www.florianllimos.fr/challenge" class="container-portfolio-card-button">Voir le projet</a>
+      <a href="https://www.florianllimos.fr/challenge" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
     </div>
   </div>
 </div>
