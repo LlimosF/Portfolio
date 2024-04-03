@@ -9,13 +9,13 @@
 
         if(!empty($_POST)) {
 
-          $name = htmlspecialchars($_POST["name"];
-          $email = htmlspecialchars($_POST["email"];
-          $number = htmlspecialchars($_POST["number"];
-          $content = htmlspecialchars($_POST["content"];
-
-          if(isset($_POST["name"], $_POST["email"], isset($_POST["number"], isset($_POST["content"]) && !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]) && !empty($_POST["content"])) {
-        
+          $name = htmlspecialchars($_POST["name"]);
+          $email = htmlspecialchars($_POST["email"]);
+          $number = htmlspecialchars($_POST["number"]);
+          $content = htmlspecialchars($_POST["content"]);
+      
+          if(isset($_POST["name"], $_POST["email"], $_POST["number"], $_POST["content"]) && !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]) && !empty($_POST["content"])) {
+              
             $sql = "INSERT INTO `formulaire`(name, email, number, content) VALUES (:name, :email, :number, :content)";
               
             $query = $db->prepare($sql);
@@ -23,18 +23,13 @@
             $query->bindValue(":email", $email, PDO::PARAM_STR);
             $query->bindValue(":number", $number, PDO::PARAM_INT);
             $query->bindValue(":content", $content, PDO::PARAM_STR);
-            $query->execute();
-        
+              
             if($query->execute()){
-        
               echo "<span class='success'>Votre formulaire a bien été envoyé.</span>";
-        
             } else {
-        
               echo "<span class='error'>Erreur lors de l'envoie du formulaire.</span>";
-        
             }
-        
+
           }
 
         }
