@@ -12,7 +12,7 @@
 
         if(!empty($_POST)) {
 
-          $email = htmlspecialchars($_POST["email"];
+          $email = htmlspecialchars($_POST["email"]);
 
           if(isset($_POST["email"]) && !empty($_POST["email"])) {
         
