@@ -1065,13 +1065,22 @@ box-shadow:  20px 20px 60px #242424,
   height: fit-content;
   justify-content: center;
   align-self: center;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
   box-shadow:  20px 20px 60px #242424,
               -20px -20px 60px #3a3a3a;
   display: grid;
   grid-template-columns: [a] 1fr [] 1fr [c];
+  transition: 300ms;
 }
 
-.bloc-form > input {
+.form-contact:hover {
+  border-bottom: 2px solid purple;
+  border-top: 2px solid purple;
+  transition: 300ms;
+}
+
+.bloc-form > input, textarea {
   background: #292929;
   box-shadow: 20px 20px 60px #242424,
               -20px -20px 60px #3a3a3a;
@@ -1102,6 +1111,13 @@ box-shadow:  20px 20px 60px #242424,
   border-bottom: 1px solid rgb(143, 143, 143);
   padding: 8px;
   color: white;
+  transition: 300ms;
+}
+
+.form-contact > button:hover  {
+  cursor: pointer;
+  border-bottom: 1px solid purple;
+  transition: 300ms;
 }
 
 .contact-container-cv {
