@@ -24,11 +24,11 @@
         
             if($query->execute()){
         
-              echo "<span class='success'>Vous êtes bien inscrit à la newsletter.</span>";
+              echo "<span class='success' id='success-newsletter'>Vous êtes bien inscrit à la newsletter.</span>";
         
             } else {
         
-              echo "<span class='error'>Erreur lors de l'inscription à la newsletter.</span>";
+              echo "<span class='error' id='error-newsletter'>Erreur lors de l'inscription à la newsletter.</span>";
         
             }
         
