@@ -17,32 +17,32 @@
   <div class="container-home-social-link" role="navigation">
     <ul role="menu" class="ul-social-link">
       <li role="menuitem">
-        <a href="https://www.instagram.com/f.lmss/?hl=fr" aria-label="Lien vers mon profil instagram" title="Lien vers mon profil Instagram">
+        <a href="https://www.instagram.com/f.lmss/?hl=fr" aria-label="Lien vers mon profil instagram" title="Lien vers mon profil Instagram" target="_blank">
           <img src="media/theme/dark/instagram.png" id="instagram">
         </a>
       </li>  
       <li role="menuitem">
-        <a href="https://www.facebook.com/florian.llimos/" aria-label="Lien vers mon profil Facebook" title="Lien vers mon profil Facebook">
+        <a href="https://www.facebook.com/florian.llimos/" aria-label="Lien vers mon profil Facebook" title="Lien vers mon profil Facebook" target="_blank">
           <img src="media/theme/dark/facebook.png" id="facebook">
         </a>
       </li>
       <li role="menuitem">
-        <a href="https://fr.linkedin.com/in/florian-llimos-a27944231" aria-label="Lien vers mon profil Linkedin" title="Lien vers mon profil Linkedin">
+        <a href="https://fr.linkedin.com/in/florian-llimos-a27944231" aria-label="Lien vers mon profil Linkedin" title="Lien vers mon profil Linkedin" target="_blank">
           <img src="media/theme/dark/linkedin.png" id="linkedin">
         </a>
       </li>
       <li role="menuitem">
-        <a href="https://github.com/LlimosF" aria-label="Lien vers mon profil Github" title="Lien vers mon profil Github">
+        <a href="https://github.com/LlimosF" aria-label="Lien vers mon profil Github" title="Lien vers mon profil Github" target="_blank">
           <img src="media/theme/dark/github.png" id="github">
         </a>
       </li>
       <li role="menuitem">
-        <a href="tel:0622005584" aria-label="Lien pour me téléphoner" title="Lien pour me téléphoner">
+        <a href="tel:0622005584" aria-label="Lien pour me téléphoner" title="Lien pour me téléphoner" target="_blank">
           <img src="media/theme/dark/telephone.png" id="telephone">
         </a>
       </li>
       <li role="menuitem">
-        <a href="mailto:llimosflorian1@gmail.com" aria-label="Lien pour m'envoyer un e-mail" title="Lien pour m'envoyer un e-mail">
+        <a href="mailto:llimosflorian1@gmail.com" aria-label="Lien pour m'envoyer un e-mail" title="Lien pour m'envoyer un e-mail" target="_blank">
           <img src="media/theme/dark/mail.png" id="mail">
         </a>
       </li>
