@@ -1,34 +1,33 @@
-let btnToggleLang = document.getElementById("toggle-lang");
-let langHome = document.getElementById("to-home");
-let langHello = document.getElementById("home-hello-text");
-let langDownload = document.getElementById("download");
+buttonLang = document.getElementById("toggle-lang");
 
-let aboutPresentation = document.getElementById("about-presentation");
-let aboutDiplome = document.getElementById("about-diplome");
-let aboutPassion = document.getElementById("about-passion");
-let aboutRecherche = document.getElementById("about-recherche");
-let aboutIdee = document.getElementById("about-idee");
+let toHome = document.getElementById("to-home");
+let toAbout = document.getElementById("to-about");
+let toSkills = document.getElementById("to-skills");
+let toProjects = document.getElementById("to-projects");
+let toContact = document.getElementById("to-contact");
 
-let langImage = document.getElementById("toggle-lang");
+let aboutbloc1 = document.getElementById("about-presentation");
+let aboutbloc2 = document.getElementById("about-diplome");
+let aboutbloc3 = document.getElementById("about-passion");
+let aboutbloc4 = document.getElementById("about-recherche");
+let aboutbloc5 = document.getElementById("about-idee");
 
-let langAbout = document.getElementById("to-about");
-let langSkill = document.getElementById("to-skills");
-let langProjet = document.getElementById("to-projects");
-let langContact = document.getElementById("to-contact");
+let homeHelloText = document.getElementById("home-hello-text");
 
-let langInstagram = document.getElementById("instagram");
-let langFacebook = document.getElementById("facebook");
-let langLinkedin = document.getElementById("linkedin");
-let langGithub = document.getElementById("instagram");
-let langTelephone = document.getElementById("telephone");
-let langMail = document.getElementById("mail");
+let download1 = document.getElementById("download");
+let download2 = document.getElementById("download1");
+
+let toInstagram = document.getElementById("instagram");
+let toFacebook = document.getElementById("facebook");
+let toLinkedin = document.getElementById("linkedin");
+let toGithub = document.getElementById("github");
+let toTelephone = document.getElementById("telephone");
+let toMail = document.getElementById("mail");
 
 let titleAbout = document.getElementById("title-about");
-let titleSkill = document.getElementById("title-skills");
+let titleSkills = document.getElementById("title-skills");
 
-let skillsTitleSeo = document.getElementById("skills-title-seo");
-let skillsTitleRgaa = document.getElementById("skills-title-rgaa");
-let skillsTitleResponsive = document.getElementById("skills-title-responsive");
+let homeBottom = document.getElementById("home-bottom");
 
 let lang = "fr";
 
@@ -36,56 +35,92 @@ function toggleLang() {
 
   if (lang === "fr") {
 
-    langHome.textContent = "Home";
-    langAbout.textContent = "About";
-    langSkill.textContent = "Skills";
-    langProjet.textContent = "Portfolio";
-    langContact.textContent = "Contact";
-    langImage.src = "media/header/england.png";
-    langHello.textContent = "Hello & Welcome";
-    langDownload.textContent = "Download CV";
+    toHome.textContent = "Home";
+    toHome.setAttribute("aria-label", "Link to home");
+    toAbout.textContent = "About";
+    toAbout.setAttribute("aria-label", "Link to about");
+    toSkills.textContent = "Skills";
+    toSkills.setAttribute("aria-label", "Link to skills");
+    toProjects.setAttribute("aria-label", "Link to portfolio");
+    toContact.setAttribute("aria-label", "Link to contact");
 
-    aboutPresentation.textContent = "My name is Florian, I'm 23 years old, and I'm a passionate web developer based near Toulouse. My journey into the world of web development began a few years ago, and since then, I have worked hard to acquire strong technical skills and a deep understanding of modern web technologies.";
-    aboutDiplome.textContent = "After discovering my passion for web programming, I undertook training in web development which allowed me to master the essential languages ​​and tools such as HTML, CSS, JavaScript, and PHP. I also gained experience creating responsive and user-friendly websites, using frameworks such as React and Angular.";
-    aboutPassion.textContent = "What motivates me most about web development is the ability to create exceptional online experiences that meet user needs. I love solving complex problems, designing intuitive user interfaces and making the web more accessible for everyone.";
-    aboutRecherche.textContent = "Over the years, I have had the opportunity to work on various exciting projects, ranging from business websites to interactive web applications. Each of these projects has been an opportunity to learn and grow as a developer. I am proud to share some of these projects in my portfolio.";
-    aboutIdee.textContent = "Currently, I am open to new professional opportunities in the field of web development. I am excited to contribute to innovative projects, to collaborate with other technology enthusiasts, and to continue to develop my skills.";
+    aboutbloc1.textContent = "My name is Florian, I'm 24 years old, and I'm a passionate web developer based near Toulouse. My journey into the world of web development began a few years ago, and since then, I have worked hard to acquire strong technical skills and a deep understanding of modern web technologies.";
+    aboutbloc2.textContent = "After discovering my passion for web programming, I undertook training in web development which allowed me to master the essential languages ​​and tools such as HTML, CSS, JavaScript, and PHP. I also gained experience creating responsive and user-friendly websites, using frameworks such as React and Angular.";
+    aboutbloc3.textContent = "What motivates me most about web development is the ability to create exceptional online experiences that meet user needs. I love solving complex problems, designing intuitive user interfaces and making the web more accessible for everyone.";
+    aboutbloc4.textContent = "Over the years, I have had the opportunity to work on various exciting projects, ranging from business websites to interactive web applications. Each of these projects has been an opportunity to learn and grow as a developer. I am proud to share some of these projects in my portfolio.";
+    aboutbloc5.textContent = "Currently, I am open to new professional opportunities in the field of web development. I am excited to contribute to innovative projects, to collaborate with other technology enthusiasts, and to continue to develop my skills.";
+  
+    buttonLang.src = "media/header/england.png";
+
+    homeHelloText.textContent = "Hello & Welcome";
+
+    download1.textContent = "Download CV";
+    download1.setAttribute("aria-label", "Download my CV");
+    download1.setAttribute("title", "Download my CV");
+    download2.textContent = "Download CV";
+    download2.setAttribute("aria-label", "Download my CV");
+    download2.setAttribute("title", "Download my CV");
+
+    toInstagram.setAttribute("title", "Link to my profile Instagram");
+    toFacebook.setAttribute("title", "Link to my profile Facebook");
+    toLinkedin.setAttribute("title", "Link to my profile Linkedin");
+    toGithub.setAttribute("title", "Link to my profile Github");
+    toTelephone.setAttribute("title", "Link to call me");
+    toMail.setAttribute("title", "Link to send me an email");
+
     titleAbout.textContent = "About";
-    titleSkill.textContent = "Skills";
+    titleSkills.textContent = "Skills";
 
-    skillsTitleResponsive.textContent = "Adaptability";
-    skillsTitleRgaa.textContent = "Accessibility";
-    skillsTitleSeo.textContent = "SEO";
-    
+    homeBottom.setAttribute("aria-label", "Link to about");
+    homeBottom.setAttribute("title", "Link to about");
+
+
     lang = "en";
 
   } else {
 
-    langHome.textContent = "Accueil";
-    langAbout.textContent = "À propos";
-    langSkill.textContent = "Compétences";
-    langProjet.textContent = "Portfolio";
-    langContact.textContent = "Contact";
-    langImage.src = "media/header/france.png";
-    langHello.textContent = "Bonjour & Bienvenue";
-    langDownload.textContent = "Télécharger CV";
+    toHome.textContent = "Accueil";
+    toHome.setAttribute("aria-label", "Lien vers l'accueil");
+    toAbout.textContent = "à propos";
+    toAbout.setAttribute("aria-label", "Lien vers à propos");
+    toSkills.textContent = "Compétences";
+    toSkills.setAttribute("aria-label", "Lien vers compétences");
+    toProjects.setAttribute("aria-label", "Lien vers portfolio");
+    toContact.setAttribute("aria-label", "Lien vers contact");
 
-    aboutPresentation.textContent = "Je m'appelle Florian, j'ai 23 ans, et je suis un développeur web passionné basé près de Toulouse. Mon voyage dans le monde du développement web a commencé il y a quelques années, et depuis lors, j'ai travaillé dur pour acquérir des compétences techniques solides et une profonde compréhension des technologies web modernes.";
-    aboutDiplome.textContent = "Après avoir découvert ma passion pour la programmation web, j'ai suivi une formation en développement web qui m'a permis de maîtriser les langages et outils essentiels tels que HTML, CSS, JavaScript et PHP. J'ai également acquis de l'expérience dans la création de sites web réactifs et conviviaux, en utilisant des frameworks tels que React et Angular.";
-    aboutPassion.textContent = "Ce qui me motive le plus dans le développement web, c'est la possibilité de créer des expériences en ligne exceptionnelles qui répondent aux besoins des utilisateurs. J'aime résoudre des problèmes complexes, concevoir des interfaces utilisateur intuitives et rendre le web plus accessible pour tous.";
-    aboutRecherche.textContent = "Au fil des ans, j'ai eu l'opportunité de travailler sur divers projets passionnants, allant de sites web d'entreprises à des applications web interactives. Chacun de ces projets a été l'occasion d'apprendre et de grandir en tant que développeur. Je suis fier de partager certains de ces projets dans mon portfolio.";
-    aboutIdee.textContent = "Actuellement, je suis ouvert à de nouvelles opportunités professionnelles dans le domaine du développement web. Je suis enthousiaste à l'idée de contribuer à des projets innovants, de collaborer avec d'autres passionnés de technologie, et de continuer à développer mes compétences.";
+    aboutbloc1.textContent = "Je m'appelle Florian, j'ai 24 ans, et je suis un développeur web passionné basé près de Toulouse. Mon voyage dans le monde du développement web a commencé il y a quelques années, et depuis lors, j'ai travaillé dur pour acquérir des compétences techniques solides et une profonde compréhension des technologies web modernes.";
+    aboutbloc2.textContent = "Après avoir découvert ma passion pour la programmation web, j'ai suivi une formation en développement web qui m'a permis de maîtriser les langages et outils essentiels tels que HTML, CSS, JavaScript et PHP. J'ai également acquis de l'expérience dans la création de sites web réactifs et conviviaux, en utilisant des frameworks tels que React et Angular.";
+    aboutbloc3.textContent = "Ce qui me motive le plus dans le développement web, c'est la possibilité de créer des expériences en ligne exceptionnelles qui répondent aux besoins des utilisateurs. J'aime résoudre des problèmes complexes, concevoir des interfaces utilisateur intuitives et rendre le web plus accessible pour tous.";
+    aboutbloc4.textContent = "Au fil des ans, j'ai eu l'opportunité de travailler sur divers projets passionnants, allant de sites web d'entreprises à des applications web interactives. Chacun de ces projets a été l'occasion d'apprendre et de grandir en tant que développeur. Je suis fier de partager certains de ces projets dans mon portfolio.";
+    aboutbloc5.textContent = "Actuellement, je suis ouvert à de nouvelles opportunités professionnelles dans le domaine du développement web. Je suis enthousiaste à l'idée de contribuer à des projets innovants, de collaborer avec d'autres passionnés de technologie, et de continuer à développer mes compétences.";
+    
+    buttonLang.src = "media/header/france.png";
+
+    homeHelloText.textContent = "Bonjour & Bienvenue";
+
+    download1.textContent = "Télécharger CV";
+    download1.setAttribute("aria-label", "Télécharger mon CV");
+    download1.setAttribute("title", "Télécharger mon CV");
+    download2.textContent = "Télécharger CV";
+    download2.setAttribute("aria-label", "Télécharger mon CV");
+    download2.setAttribute("title", "Télécharger mon CV");
+
+    toInstagram.setAttribute("title", "Lien vers mon profil Instagram");
+    toFacebook.setAttribute("title", "Lien vers mon profil Facebook");
+    toLinkedin.setAttribute("title", "Lien vers mon profil Linkedin");
+    toGithub.setAttribute("title", "Lien vers mon profil Github");
+    toTelephone.setAttribute("title", "Link pour me téléphoner");
+    toMail.setAttribute("title", "Lien pour m'envoyer un e-mail");
 
     titleAbout.textContent = "à propos";
-    titleSkill.textContent = "Compétences";
+    titleSkills.textContent = "Compétences";
 
-    skillsTitleResponsive.textContent = "Adaptabilité";
-    skillsTitleRgaa.textContent = "Accessibilité";
-    skillsTitleSeo.textContent = "Référencement";
-
+    homeBottom.setAttribute("aria-label", "Lien vers à propos");
+    homeBottom.setAttribute("title", "Lien vers à propos");
+    
     lang = "fr";
 
   }
 }
 
-btnToggleLang.addEventListener("click", toggleLang);
+buttonLang.addEventListener("click", toggleLang);

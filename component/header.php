@@ -5,7 +5,7 @@
     </a>
     <div class="container-toggle">
       <!-- <img src="media/header/lune.png" id="toggle-theme"> -->
-      <img src="media/header/france.png" id="toggle-lang">
+      <img id="toggle-lang" src="media/header/france.png">
     </div>
     <input type="checkbox" id="toggler" role="button" aria-label="Ouvrir le menu de navigation"/>
     <label for="toggler"><img src="media/theme/dark/menu.png" class="burger-logo" id="burger"></img></label>

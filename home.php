@@ -49,8 +49,8 @@
     </ul>
   </div>
   <div class="container-home-bottom">
-    <a href="#a-propos" aria-label="Aller vers la section à propos" title="Aller vers la section à propos">
-      <img src="media/theme/dark/arrow.png" alt="" id="home-bottom" class="home-bottom-dark">
+    <a href="#about">
+      <img src="media/theme/dark/arrow.png" alt="" id="home-bottom" class="home-bottom-dark" aria-label="Lien vers à propos" title="Lien vers à propos">
     </a>
   </div>
 </div>

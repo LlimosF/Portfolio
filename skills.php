@@ -1,5 +1,5 @@
 <div id="skills">
-  <h2 class="title-section">Compétences</h2>
+  <h2 class="title-section" id="title-skills">Compétences</h2>
   <div class="container-skills">
 
     <!-- HTML -->

@@ -1,5 +1,5 @@
 <footer id="footer">
-  <div class="container-footer-newsletter">
+  <div class="container-footer-newsletter" id="newsletter">
     <h2 class="title-footer">newsletter</h2>
     <form class="form-newsletter">
       <input type="email" required placeholder="Adresse e-mail">

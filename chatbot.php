@@ -1,7 +1,8 @@
 <div id="chatbot" class="chatbot-none">
   <div class="container-chatbot"></div>
   <div class="container-chatbot-welcome">
-    <p>Bonjour, je suis le bot de Florian. <br>Comment puis-je vous aider ?</p>
+    <div class="container-chatbot-welcome-round"></div>
+    <p>Florian</p>
   </div>
   <div class="container-chatbot-top-mobile">
     <div class="container-chatbot-top-mobile-picture"></div>
@@ -9,7 +10,7 @@
   <div id="container-chatbot-bloc-1" class="container-chatbot-bloc">
     <button class="container-chatbot-button" id="container-chatbot-question-1">Navigation</button><br>
     <button class="container-chatbot-button" id="container-chatbot-question-2">Réseaux sociaux</button><br>
-    <button class="container-chatbot-button" id="container-chatbot-question-3"><a href="#newsletter">Inscription newsletter</a></button><br>
+    <button class="container-chatbot-button" id="container-chatbot-question-3">I<a href="#newsletter">nscription newsletter</a></button><br>
     <button class="container-chatbot-button" id="container-chatbot-close">Fermer le chatbot</button>
   </div>
 
