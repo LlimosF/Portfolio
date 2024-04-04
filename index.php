@@ -25,7 +25,6 @@
   ?>
 
 </body>
-<script src="theme.js"></script>
 <script src="lang.js"></script>
 <script src="typing.js"></script>
 <script src="chatbot.js"></script>

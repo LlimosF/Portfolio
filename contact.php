@@ -37,18 +37,18 @@
       ?>
 
       <div class="bloc-form">
-        <input type="text" name="name" required placeholder="Prénom">
+        <input type="text" name="name" required placeholder="Prénom" id="input-text-contact">
       </div>
       <div class="bloc-form">
-        <input type="email" name="email" required placeholder="Adresse e-mail">
+        <input type="email" name="email" required placeholder="Adresse e-mail" id="input-email-contact">
       </div>
       <div class="bloc-form">
-        <input type="number" name="number" required placeholder="Numéro de téléphone">
+        <input type="number" name="number" required placeholder="Numéro de téléphone" id="input-number-contact">
       </div>
       <div class="bloc-form">
-        <textarea name="content" rows="3" placeholder="Votre message"></textarea>
+        <textarea name="content" rows="3" placeholder="Votre message" id="textarea-contact"></textarea>
       </div>
-      <button type="submit">Envoyer</button>
+      <button type="submit" id="button-contact">Envoyer</button>
     </form>
     <div class="container-cv">
       <div class="contact-container-cv">

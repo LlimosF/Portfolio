@@ -31,9 +31,26 @@ let homeBottom = document.getElementById("home-bottom");
 
 let inputNewsletter = document.getElementById("input-newsletter");
 let btnNewsletter = document.getElementById("btn-newsletter");
-
 let errorNewsletter = document.getElementById("error-newsletter");
 let successNewsletter = document.getElementById("success-newsletter");
+
+let linkIndisponible = document.querySelectorAll(".link-indisponible");
+let linkDisponible = document.querySelectorAll(".link-disponible");
+
+let inputTextContact = document.getElementById("input-text-contact");
+let inputEmailContact = document.getElementById("input-email-contact");
+let inputNumberContact = document.getElementById("input-number-contact");
+let textareaContact = document.getElementById("textarea-contact");
+let buttonContact = document.getElementById("button-contact");
+
+let chatbot2 = document.getElementById("container-chatbot-question-2");
+let chatbot3 = document.getElementById("container-chatbot-question-3");
+let chatbotClose = document.getElementById("container-chatbot-close");
+let chatbotClose1 = document.getElementById("container-chatbot-close1");
+let chatbotClose2 = document.getElementById("container-chatbot-close2");
+let chatbot5 = document.getElementById("container-chatbot-question-5");
+let chatbot6 = document.getElementById("container-chatbot-question-6");
+let chatbot7 = document.getElementById("container-chatbot-question-7");
 
 let lang = "fr";
 
@@ -80,11 +97,31 @@ function toggleLang() {
     homeBottom.setAttribute("aria-label", "Link to about");
     homeBottom.setAttribute("title", "Link to about");
 
-    inputNewsletter.setAttribute("placeholder", "Email address");
     btnNewsletter.textContent = "Register";
-    errorNewsletter.textContent = "Error when subscribing to the newsletter.";
-    success.textContent = "You are subscribed to our newsletter.";
+    inputNewsletter.setAttribute("placeholder", "Email address");
 
+    linkIndisponible.forEach(indisponibleLink => {
+      indisponibleLink.textContent = "Unavailable";
+    });
+
+    linkDisponible.forEach(disponibleLink => {
+      disponibleLink.textContent = "See the website";
+    });
+
+    inputTextContact.setAttribute("placeholder", "First name");
+    inputEmailContact.setAttribute("placeholder", "Email address");
+    inputNumberContact.setAttribute("placeholder", "Phone number");
+    textareaContact.setAttribute("placeholder", "Your message");
+    buttonContact.textContent = "Send";
+
+    chatbot2.textContent = "Social networks";
+    chatbot3.textContent = "Newsletter subscription";
+    chatbotClose.textContent = "Close the chatbot";
+    chatbotClose1.textContent = "Close the chatbot";
+    chatbotClose2.textContent = "Close the chatbot";
+    chatbot5.textContent = "Home";
+    chatbot6.textContent = "About";
+    chatbot7.textContent = "Skills";
 
     lang = "en";
 
@@ -129,12 +166,32 @@ function toggleLang() {
     homeBottom.setAttribute("aria-label", "Lien vers à propos");
     homeBottom.setAttribute("title", "Lien vers à propos");
 
-    inputNewsletter.setAttribute("placeholder", "Adresse e-mail");
     btnNewsletter.textContent = "M'inscrire";
-    errorNewsletter.textContent = "Erreur lors de l'inscription à la newsletter.";
-successNewsletter.textContent = "Vous êtes bien inscrit à la newsletter.";
+    inputNewsletter.setAttribute("placeholder", "Adresse e-mail");
 
-    
+    linkIndisponible.forEach(indisponibleLink => {
+      indisponibleLink.textContent = "Indisponible";
+    });
+
+    linkDisponible.forEach(disponibleLink => {
+      disponibleLink.textContent = "Voir le site web";
+    });
+
+    inputTextContact.setAttribute("placeholder", "Prénom");
+    inputEmailContact.setAttribute("placeholder", "Adresse e-mail");
+    inputNumberContact.setAttribute("placeholder", "Numéro de téléphone");
+    textareaContact.setAttribute("placeholder", "Envoyer");
+    buttonContact.textContent = "Envoyer";
+
+    chatbot2.textContent = "Réseaux sociaux";
+    chatbot3.textContent = "Inscription newsletter";
+    chatbotClose.textContent = "Fermer le chatbot";
+    chatbotClose1.textContent = "Fermer le chatbot";
+    chatbotClose2.textContent = "Fermer le chatbot";
+    chatbot5.textContent = "Accueil";
+    chatbot6.textContent = "à propos";
+    chatbot7.textContent = "Compétences";
+
     lang = "fr";
 
   }

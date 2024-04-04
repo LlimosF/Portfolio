@@ -2,8 +2,8 @@
   <div class="container-footer-newsletter" id="newsletter">
     <h2 class="title-footer">newsletter</h2>
     <form class="form-newsletter">
-      <input type="email" required placeholder="Adresse e-mail" id"input-newsletter">
-      <button type="submit" id"btn-newsletter">Inscription</button>
+      <input type="email" required placeholder="Adresse e-mail" id="input-newsletter">
+      <button type="submit" id="btn-newsletter">Inscription</button>
       <div class="bloc-newsletter">
         
         <?php
