@@ -1,6 +1,6 @@
 <header class="header-dark" id="header">
   <nav class="navbar container">
-    <a href="#">
+    <a href="index.php">
       <h1>Llimos florian</h1>
     </a>
     <div class="container-toggle">

@@ -1,18 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="media/home/florian.png" />
+  <title>Florian Llimos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <?php
 
     require_once("component/database.php");
+    require_once("background.php");
+    require_once("component/header.php");
 
 ?>
 
-<form method="POST" class="">
-    <h3 class="">Connexion</h3>
-    <div class="">
+<form method="POST" class="form-login">
+    <div class="bloc-form">
         <input type="email" name="email" id="email" placeholder="Adresse e-mail" required>
     </div>
     <div class="bloc-form">
         <input type="password" name="password" id="password" placeholder="Mot de passe" required>
     </div>
-    <button type="submit" class="">Me connecter</button>
+    <button type="submit" class="btn-login">Me connecter</button>
 
     <?php
 

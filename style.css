@@ -909,7 +909,7 @@ box-shadow:  20px 20px 60px #242424,
 
 .chatbot-open {
   width: 70%;
-  height: 84vh;
+  height: 500px;
   bottom: 0;
   right: 0;
   margin-bottom: 20px;
@@ -1010,7 +1010,7 @@ box-shadow:  20px 20px 60px #242424,
   grid-row: a / c;
   grid-column: a / c;
   align-self: flex-start;
-  margin-top: 150px;
+  margin-top: 120px;
   justify-self: center;
 }
 
@@ -1261,3 +1261,135 @@ box-shadow:  20px 20px 60px #242424,
 /* EOF FOOTER */
 /* EOF FOOTER */
 
+
+.form-login {
+  margin-top: 130px;
+}
+
+.success {
+  grid-column: a / c;
+  justify-self: center;
+  padding: 15px;
+  color: rgb(34, 228, 34);
+  text-align: center;
+}
+
+.error {
+  color: rgb(204, 24, 17);
+  grid-column: a / c;
+  justify-self: center;
+  text-align: center;
+  padding: 15px;
+}
+
+#first-title {
+  margin-top: 120px;
+}
+
+.admin-form {
+  margin-top: 30px;
+  color: white;
+  width: 250px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 700px) {
+  .container-form-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container-form-contact {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.form-login {
+  width: 300px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background: #2f2f2f;
+  height: fit-content;
+  justify-content: center;
+  align-self: center;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  box-shadow:  20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  display: grid;
+  grid-template-columns: [a] 1fr [] 1fr [c];
+  transition: 300ms;
+}
+
+.form-login:hover {
+  border-bottom: 2px solid purple;
+  border-top: 2px solid purple;
+  transition: 300ms;
+}
+
+.bloc-form > input, textarea {
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(143, 143, 143);
+  padding: 8px;
+  color: white;
+  margin-top: 10px;
+}
+
+.bloc-form {
+  grid-column: a / c;
+  justify-self: center;
+}
+
+.form-login > button {
+  grid-column: a / c;
+  justify-self: center;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #292929;
+  box-shadow: 20px 20px 60px #242424,
+              -20px -20px 60px #3a3a3a;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(143, 143, 143);
+  padding: 8px;
+  color: white;
+  transition: 300ms;
+}
+
+.form-login > button:hover  {
+  cursor: pointer;
+  border-bottom: 1px solid purple;
+  transition: 300ms;
+}
+
+.li-admin {
+  list-style: none;
+  color: white;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.title-admin {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

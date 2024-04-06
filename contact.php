@@ -50,7 +50,7 @@
       </div>
       <button type="submit" id="button-contact">Envoyer</button>
     </form>
-    <div class="container-cv">
+    <div class="container-cv" id="cv">
       <div class="contact-container-cv">
         <button id="download1" class="download-dark" title="Télécharger mon cv" tabindex="0">Télécharger CV</button>
       </div>

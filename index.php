@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="media/home/florian.png" />
   <title>Florian Llimos</title>
+  <meta name="description" content="Florian Llimos, développeur web près de Toulouse.">
 </head>
 <body>
   

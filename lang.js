@@ -44,7 +44,6 @@ let textareaContact = document.getElementById("textarea-contact");
 let buttonContact = document.getElementById("button-contact");
 
 let chatbot2 = document.getElementById("container-chatbot-question-2");
-let chatbot3 = document.getElementById("container-chatbot-question-3");
 let chatbotClose = document.getElementById("container-chatbot-close");
 let chatbotClose1 = document.getElementById("container-chatbot-close1");
 let chatbotClose2 = document.getElementById("container-chatbot-close2");
@@ -115,7 +114,6 @@ function toggleLang() {
     buttonContact.textContent = "Send";
 
     chatbot2.textContent = "Social networks";
-    chatbot3.textContent = "Newsletter subscription";
     chatbotClose.textContent = "Close the chatbot";
     chatbotClose1.textContent = "Close the chatbot";
     chatbotClose2.textContent = "Close the chatbot";
@@ -184,7 +182,6 @@ function toggleLang() {
     buttonContact.textContent = "Envoyer";
 
     chatbot2.textContent = "Réseaux sociaux";
-    chatbot3.textContent = "Inscription newsletter";
     chatbotClose.textContent = "Fermer le chatbot";
     chatbotClose1.textContent = "Fermer le chatbot";
     chatbotClose2.textContent = "Fermer le chatbot";

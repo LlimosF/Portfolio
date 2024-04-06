@@ -11,7 +11,7 @@
       <h3 class="container-portfolio-card-title">Password</h3>
       <img src="media/portfolio/password.png" alt="Password Logo">
       <p>HTML | CSS | JS</p>
-      <a href="https://www.florianllimos.fr/password" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
+      <a href="https://www.florianllimos.fr/password" class="container-portfolio-card-button link-disponible" target="_blank">Voir le site web</a>
     </div>
 
     <!-- CPROT -->
@@ -23,7 +23,7 @@
       <h3 class="container-portfolio-card-title">CProt</h3>
       <img src="media/portfolio/cprot.png" alt="CProt Logo">
       <p>WORDPRESS | CSS</p>
-      <a href="https://www.catherineprot.fr" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
+      <a href="https://www.catherineprot.fr" class="container-portfolio-card-button link-disponible" target="_blank">Voir le site web</a>
     </div>
 
     <!-- CCPHOTOGRAPHIE -->
@@ -35,7 +35,7 @@
       <h3 class="container-portfolio-card-title">CCPhoto</h3>
       <img src="media/portfolio/ccphoto.png" alt="CCPhoto Logo">
       <p>NETLIFY | REACT | CSS</p>
-      <a href="https://www.ccphotographie.netlify.app" class="container-portfolio-card-button" target="_blank">Voir le site web</a>
+      <a href="https://www.ccphotographie.netlify.app" class="container-portfolio-card-button link-disponible" target="_blank">Voir le site web</a>
     </div>
 
     <!-- FRAMEUSE -->
