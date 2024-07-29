@@ -30,4 +30,5 @@
 <script src="typing.js"></script>
 <script src="chatbot.js"></script>
 <script src="download.js"></script>
+<script src="scroll.js"></script>
 </html>
